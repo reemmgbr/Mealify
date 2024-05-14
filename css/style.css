@@ -250,6 +250,7 @@ nav .container ul li.active ::after {
 }
 .watch-home-page {
   display: flex;
+  align-items: center;
 }
 .flex-wach-home a {
   color: var(--color-defult);
