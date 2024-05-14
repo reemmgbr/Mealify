@@ -211,7 +211,7 @@ nav .container ul li.active ::after {
 .btns-home-page {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.9rem;
 }
 
 .book-table {
@@ -249,9 +249,7 @@ nav .container ul li.active ::after {
   color: var(--color-defult);
 }
 .watch-home-page {
-  width: 500px;
   display: flex;
-  align-items: center;
 }
 .flex-wach-home a {
   color: var(--color-defult);
@@ -265,7 +263,9 @@ nav .container ul li.active ::after {
   .home-page .container {
     flex-direction: column;
   }
-
+  .photo-home-page img {
+    display: none;
+  }
   .photo-home-page {
     width: 100%;
     order: 1;
@@ -275,11 +275,16 @@ nav .container ul li.active ::after {
     width: 80%;
     order: 2;
   }
-  .flex-wach-home {
-    padding: 0 35px;
+  .text-home-page h2 {
+    text-align: center;
+    width: 90%;
+    margin: auto;
   }
 }
-
+.text-home-page p {
+  width: 90%;
+  margin: auto;
+}
 /* START CHEFS */
 .chefs {
   padding: 55px 0;
@@ -436,13 +441,12 @@ nav .container ul li.active ::after {
   text-align: center;
   color: aliceblue;
   transition: 0.8s;
-}
-.layer {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .layer .layer-content h3 {
   font-size: 24px;
   padding: 5px 0;
@@ -678,7 +682,7 @@ footer {
   display: flex;
 }
 .social-media .social-link li {
-  padding: 10px 18px;
+  padding: 10px;
 }
 .social-media .social-link li i {
   color: var(--baics-color);
